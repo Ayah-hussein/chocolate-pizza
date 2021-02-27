@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Eczar&display=');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Oswald:wght@300;400;500;700&family=Patrick+Hand&family=Yellowtail&display=swap');
+
 *{box-sizing: border-box;}
+
 h1{font-family: 'Yellowtail', cursive; font-size: 35px;}
 body {
     width:960px;
@@ -37,7 +39,7 @@ header {
 
 .headl {
     display: inline-block;
-    float: left;
+    /*float: left;*/
     font-family: 'Abel', sans-serif;
  color: rgb(167, 159, 159);
     font-size: smaller;
@@ -123,12 +125,10 @@ hr {
    
     background-image: url(../img/small-logo.png);
 }
-footer{
 
-}
 #ull {
     display: inline-block;
-    float: right;
+    /*float: right;*/
 }
 #foleft {
     float: left;
